@@ -1,3 +1,5 @@
-How to communicate between viewmodels.
- Branch via-viewmodellocator (maybe not)
- Branch vie-messaging (maybe!) 
+Communicate between viewmodels
+=====================================
+
+Branch via-viewmodellocator (maybe not)
+Branch via-messaging (maybe!) 
