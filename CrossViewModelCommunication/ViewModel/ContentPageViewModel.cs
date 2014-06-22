@@ -1,7 +1,8 @@
-using System.Windows;
 using System.Windows.Input;
+using ExampleUsingViewModelLocator.Message;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.Messaging;
 
 namespace ExampleUsingViewModelLocator.ViewModel
 {
@@ -11,12 +12,8 @@ namespace ExampleUsingViewModelLocator.ViewModel
         {
             Title = "Content page title";
 
-            ChangeBackgroundCommand = new RelayCommand(() =>
-            {
-                var locator = Application.Current.Resources["Locator"] as ViewModelLocator;
-                if (locator != null)
-                    locator.Background = "#22EE44";
-            });
+            ChangeBackgroundCommand = new RelayCommand<string>(param =>
+                    Messenger.Default.Send(new ChangeBackgroundMessage(param)));
         }
 
         public string Title { get; set; }

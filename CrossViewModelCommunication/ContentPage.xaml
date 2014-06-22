@@ -13,6 +13,7 @@
         <Button
             Padding="10"
             Content="Green background"
-            Command="{Binding ChangeBackgroundCommand}" />
+            Command="{Binding ChangeBackgroundCommand}"
+            CommandParameter="#77BB11" />
     </StackPanel>
 </Page>

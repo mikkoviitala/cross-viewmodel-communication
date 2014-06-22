@@ -73,6 +73,7 @@
     </Compile>
     <Compile Include="Converter\BooleanVisibilityConverter.cs" />
     <Compile Include="Converter\StringBrushConverter.cs" />
+    <Compile Include="Message\ChangeBackgroundMessage.cs" />
     <Compile Include="ViewModel\ContentPageViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
