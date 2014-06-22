@@ -1,10 +1,10 @@
 using System.Windows.Input;
-using ExampleUsingViewModelLocator.Message;
+using CrossViewModelCommunication.Message;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 
-namespace ExampleUsingViewModelLocator.ViewModel
+namespace CrossViewModelCommunication.ViewModel
 {
     public class ContentPageViewModel : ViewModelBase
     {

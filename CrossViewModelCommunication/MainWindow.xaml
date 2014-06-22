@@ -1,13 +1,13 @@
-﻿<Window x:Class="ExampleUsingViewModelLocator.MainWindow"
+﻿<Window x:Class="CrossViewModelCommunication.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:converter="clr-namespace:ExampleUsingViewModelLocator.Converter"
+        xmlns:converter2="clr-namespace:CrossViewModelCommunication.Converter"
         Title="MainWindow" Height="350" Width="525"
         DataContext="{Binding Source={StaticResource Locator}, Path=MainVM}">
     
     <Window.Resources>
-        <converter:BooleanVisibilityConverter x:Key="BooleanVisibilityConverter" />
-        <converter:StringBrushConverter x:Key="StringBrushConverter" />
+        <converter2:BooleanVisibilityConverter x:Key="BooleanVisibilityConverter" />
+        <converter2:StringBrushConverter x:Key="StringBrushConverter" />
     </Window.Resources>
 
     <Grid Margin="10" 

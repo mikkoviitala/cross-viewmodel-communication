@@ -1,4 +1,4 @@
-﻿namespace ExampleUsingViewModelLocator.Message
+﻿namespace CrossViewModelCommunication.Message
 {
     public class ChangeBackgroundMessage
     {

@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace ExampleUsingViewModelLocator.Converter
+namespace CrossViewModelCommunication.Converter
 {
     public class BooleanVisibilityConverter : IValueConverter
     {

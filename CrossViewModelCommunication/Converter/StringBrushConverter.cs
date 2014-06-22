@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace ExampleUsingViewModelLocator.Converter
+namespace CrossViewModelCommunication.Converter
 {
     public class StringBrushConverter : IValueConverter
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ExampleUsingViewModelLocator
+namespace CrossViewModelCommunication
 {
     public partial class MainWindow : Window
     {
