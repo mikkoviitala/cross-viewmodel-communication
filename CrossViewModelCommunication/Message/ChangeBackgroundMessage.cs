@@ -1,6 +1,8 @@
-﻿namespace CrossViewModelCommunication.Message
+﻿using GalaSoft.MvvmLight.Messaging;
+
+namespace CrossViewModelCommunication.Message
 {
-    public class ChangeBackgroundMessage
+    public class ChangeBackgroundMessage : MessageBase
     {
         public ChangeBackgroundMessage()
         {}
