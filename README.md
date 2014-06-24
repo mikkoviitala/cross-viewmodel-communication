@@ -1,5 +1,2 @@
-**Communication between viewmodels**
-```
-~~Branch: via-viewmodellocator (maybe not)
-Branch: via-messaging (maybe!) 
-```
+####Communication between viewmodels 
+One way to do it.
